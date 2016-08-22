@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tour du Jour</string>
+
+    <string name="category_attractions">Attractions</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_bases">Bases</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_restaurants">Restaurants</string>
+
+    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+    <string name="category_shopping">Shopping</string>
+
+</resources>
