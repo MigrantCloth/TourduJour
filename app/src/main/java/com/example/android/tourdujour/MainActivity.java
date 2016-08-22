@@ -15,14 +15,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(android.R.layout.activity_list_item);
+        setContentView(R.layout.activity_list_item);
 
-        // Find the View that shows the numbers category
+        // Find the View that shows the attractions category
         TextView attractions = (TextView) findViewById(R.id.attractions);
 
         // Set a click listener on that View
         attractions.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the attractions View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent attractionsIntent = new Intent(MainActivity.this, Attractions.class);
@@ -30,12 +30,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the family category
+        // Find the View that shows the bases category
         TextView bases = (TextView) findViewById(R.id.bases);
 
         // Set a click listener on that View
         bases.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the bases View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent basesIntent = new Intent(MainActivity.this, Bases.class);
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the colors category
+        // Find the View that shows the restaurants category
         TextView restaurants = (TextView) findViewById(R.id.restaurants);
 
         // Set a click listener on that View
@@ -56,12 +56,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the phrases category
+        // Find the View that shows the shopping category
         TextView shopping = (TextView) findViewById(R.id.shopping);
 
         // Set a click listener on that View
         shopping.setOnClickListener(new View.OnClickListener() {
-            // The code in this method will be executed when the numbers View is clicked on.
+            // The code in this method will be executed when the shopping View is clicked on.
             @Override
             public void onClick(View view) {
                 Intent shoppingIntent = new Intent(MainActivity.this, Shopping.class);
@@ -69,7 +69,4 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
-
-
-
 }
