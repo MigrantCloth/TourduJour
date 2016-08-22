@@ -3,7 +3,6 @@ package com.example.android.tourdujour;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.ListView;
-
 import java.util.ArrayList;
 
 public class Attractions extends AppCompatActivity {

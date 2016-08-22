@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_main);
+        setContentView(android.R.layout.activity_list_item);
 
         // Find the View that shows the numbers category
         TextView attractions = (TextView) findViewById(R.id.attractions);
