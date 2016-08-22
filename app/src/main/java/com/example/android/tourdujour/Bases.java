@@ -11,7 +11,7 @@ public class Bases extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.list_item);
+        setContentView(R.layout.activity_main);
 
         ArrayList<Destination> destinations = new ArrayList<Destination>();
         destinations.add(new Destination ("Andrews Airforce Base", "address", R.drawable.seal_airforce));

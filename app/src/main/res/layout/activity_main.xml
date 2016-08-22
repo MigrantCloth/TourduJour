@@ -10,8 +10,8 @@
     tools:context="com.example.android.tourdujour.MainActivity">
 
     <ImageView
-        android:layout_width="380dp"
-        android:layout_height="200dp"
+        android:layout_width="410dp"
+        android:layout_height="220dp"
         android:scaleType="fitXY"
         android:src="@drawable/dc32"
         android:background="@android:color/black"/>
