@@ -54,6 +54,8 @@ public class DestinationAdapter extends ArrayAdapter <Destination> {
 
         // Find the ImageView in the list_item.xml layout with the ID list_item_icon
         ImageView iconView = (ImageView) listItemView.findViewById(R.id.image);
+        iconView.setImageResource(currentDestination.getImageResourceID());
+        iconView.setVisibility(View.VISIBLE);
 
         //Set them for color in layout
         View textContainer = listItemView.findViewById(R.id.text_container);
