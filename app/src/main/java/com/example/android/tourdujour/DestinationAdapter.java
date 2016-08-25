@@ -37,7 +37,7 @@ public class DestinationAdapter extends ArrayAdapter <Destination> {
                     R.layout.list_item, parent, false);
         }
 
-        // Get the {@link AndroidFlavor} object located at this position in the list
+        // Get the destination object located at this position in the list
         Destination currentDestination = getItem(position);
 
         // Find the TextView in the list_item.xml layout with the ID version_name

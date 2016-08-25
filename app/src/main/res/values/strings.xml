@@ -3,13 +3,87 @@
 
     <string name="category_attractions">Attractions</string>
 
-    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+<!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
     <string name="category_bases">Bases</string>
 
-    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+<!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
     <string name="category_restaurants">Restaurants</string>
 
-    <!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
+<!-- Category name for the vocabulary words for family members [CHAR LIMIT=20] -->
     <string name="category_shopping">Shopping</string>
+<!-- Restaurant names and addresses -->
+    <string name="Ben">Ben\'s Chili Bowl</string>
+    <string name="BenAdd">1213 U St NW, Washington, DC 20009\-4442</string>
+    <string name="Hank">Hank\'s Oyster Bar</string>
+    <string name="HankAdd">1624 Q St NW, Washington, DC 20009</string>
+    <string name="STK">STK</string>
+    <string name="STKAdd">1250 Connecticut Ave NW, Washington, DC 20036</string>
+    <string name="Busboys">Busboys &amp; Poets</string>
+    <string name="BusboysAdd">2021 14th St NW, Washington, DC 20009</string>
+    <string name="Capitol">Capitol Brewery</string>
+    <string name="CapitolAdd">4001 Campbell Ave, Arlington, VA 22206</string>
+    <string name="LaTasca">La Tasca</string>
+    <string name="LaTascaAdd">722 7th St NW, Washington, DC 20001</string>
+    <string name="TCB">The Cock and Bowl</string>
+    <string name="TCBAdd">302 Poplar Alley, Occoquan, VA 22125</string>
+    <string name="Kramer">KRAMERBOOKS &amp; afterwords</string>
+    <string name="KramerAdd">1517 Connecticut Ave NW, Washington, DC 20036</string>
+<!-- Attractions names and addresses -->
+    <string name="MLK">Martin Luther King, Jr. Monument</string>
+    <string name="MLKAdd">1964 Independence Ave SW, Washington, DC 20024</string>
+    <string name="FDR">Franklin Delano Roosevelt Monument</string>
+    <string name="FDRAdd">1850 West Basin Dr SW, Washington, DC 20242</string>
+    <string name="wwii">World War II Memorial</string>
+    <string name="wwiiAdd">17th Street, Washington, DC 20006</string>
+    <string name="Lincoln">Lincoln Memorial</string>
+    <string name="LincolnAdd">2 Lincoln Memorial Cir NW, Washington, DC 20037</string>
+    <string name="Wash">Washington Monument</string>
+    <string name="WashAdd">2 15th St NW, Washington, DC 20024</string>
+    <string name="Pool">Lincoln Memorial Reflection Pool</string>
+    <string name="PoolAdd">2 Lincoln Memorial Cir NW, Washington, DC 20024</string>
+    <string name="Tussauds">Madam Tussauds Wax Museum</string>
+    <string name="TussaudsAdd">1001 F St NW, Washington, DC 20004</string>
+    <string name="Smithsonian">Smithsonian Air &amp; Space Museum</string>
+    <string name="SmithAdd">600 Independence Ave SW, Washington, DC 20560</string>
+    <string name="Spy">International Spy Museum</string>
+    <string name="SpyAdd">800 F St NW, Washington, DC 20004</string>
+<!-- Bases names and addresses -->
+    <string name="APG">Aberdeen Proving Ground</string>
+    <string name="APGAdd">4727 Deer Creek Loop, Aberdeen Proving Ground, MD 21005</string>
+    <string name="Andrews">Andrews Airforce Base</string>
+    <string name="AndrewsAdd">1811 G Street. Andrews Air Force Base. JB Andrews, MD 20762</string>
+    <string name="Belvoir">Fort Belvoir Army Base</string>
+    <string name="BelvoirAdd">9910 Tracy Loop, Fort Belvoir, VA 22060</string>
+    <string name="Meade">Fort Meade Army Base</string>
+    <string name="MeadeAdd">4409 Llewellyn Ave, Fort Meade, MD 20755</string>
+    <string name="Anacostia">Joint Base Anacostia-Bolling</string>
+    <string name="AnacostiaAdd">20 MacDill Blvd #207, Washington, DC 20032</string>
+    <string name="Myer">Joint Base Myer-Henderson Hall</string>
+    <string name="MyerAdd">Hatfield Gate, 2nd Street South, Fort Myer, VA 22211</string>
+    <string name="PaxRiver">Naval Air Station Patuxent River</string>
+    <string name="PaxRiverAdd">21967 Cuddihy Rd, Patuxent River, MD 20670</string>
+    <string name="Quantico">Marine Corps Base Quantico</string>
+    <string name="QuanticoAdd">3250 Catlin Ave, Quantico, VA 22134</string>
+    <string name="CoastGuard">Coast Guard Sector Baltimore</string>
+    <string name="CoastGuardAdd">2401 Hawkins Point Rd, Baltimore, MD 21226</string>
+<!-- Shopping names and addresses -->
+    <string name="Pentagon">Pentagon City Mall</string>
+    <string name="PentagonAdd">1100 S Hayes St, Arlington, VA 22202</string>
+    <string name="Potomac">Potomac Mills Mall</string>
+    <string name="PotomacAdd">2700 Potomac Mills Cir, Woodbridge, VA 22192</string>
+    <string name="Tysons">Tyson\'s Galleria</string>
+    <string name="TysonsAdd">2001 International Dr, McLean, VA 22102</string>
+    <string name="UnionStation">Union Station</string>
+    <string name="UnionAdd">50 Massachusetts Ave NE, Washington, DC 20002</string>
+    <string name="ChevyChase">Chevy Chase Pavilion</string>
+    <string name="ChevyChaseAdd">5335 Wisconsin Ave NW, Washington, DC 20015</string>
+    <string name="CityCenter">City Center DC</string>
+    <string name="CityCenterAdd">825 10th St NW, Washington, DC 20001</string>
+    <string name="EasternMarket">Eastern Market</string>
+    <string name="EMAdd">225 7th St SE, Washington, DC 20003</string>
+
+
+
 
 </resources>
+

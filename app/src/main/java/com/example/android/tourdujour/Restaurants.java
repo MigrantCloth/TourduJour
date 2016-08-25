@@ -14,14 +14,14 @@ public class Restaurants extends AppCompatActivity {
         setContentView(R.layout.destination_list);
 
         ArrayList<Destination> destinations = new ArrayList<Destination>();
-        destinations.add(new Destination("Ben's Chili Bowl", "1213 U St NW, Washington, DC 20009-4442", R.drawable.ben));
-        destinations.add(new Destination("Hank's Oyster Bar", "1624 Q St NW, Washington, DC 20009", R.drawable.hanks));
-        destinations.add(new Destination("STK", "1250 Connecticut Ave NW, Washington, DC 20036", R.drawable.stk));
-        destinations.add(new Destination("Busboys & Poets", "2021 14th St NW, Washington, DC 20009", R.drawable.busboys));
-        destinations.add(new Destination("Capitol Brewery", "4001 Campbell Ave, Arlington, VA 22206", R.drawable.capitolbrewery));
-        destinations.add(new Destination("La Tasca", "722 7th St NW, Washington, DC 20001", R.drawable.latasca));
-        destinations.add(new Destination("The Cock and Bowl", "address", R.drawable.cockandbowl));
-        destinations.add(new Destination("KRAMERBOOKS & afterwords", "address", R.drawable.kramer));
+        destinations.add(new Destination(R.string.Ben, R.string.BenAdd, R.drawable.ben));
+        destinations.add(new Destination(R.string.Hank, R.string.HankAdd, R.drawable.hanks));
+        destinations.add(new Destination(R.string.STK, R.string.STKAdd, R.drawable.stk));
+        destinations.add(new Destination(R.string.Busboys, R.string.BusboysAdd, R.drawable.busboys));
+        destinations.add(new Destination(R.string.Capitol, R.string.CapitolAdd,R.drawable.capitolbrewery));
+        destinations.add(new Destination(R.string.LaTasca, R.string.LaTascaAdd, R.drawable.latasca));
+        destinations.add(new Destination(R.string.TCB, R.string.TCBAdd, R.drawable.cockandbowl));
+        destinations.add(new Destination(R.string.Kramer, R.string.KramerAdd,R.drawable.kramer));
 
         DestinationAdapter adapter = new DestinationAdapter(this, destinations, R.color.category_restaurants);
 

@@ -6,10 +6,10 @@ package com.example.android.tourdujour;
 public class Destination {
 
     //Destination name
-    private String mName;
+    private int mName;
 
     //Destination address
-    private String mAddress;
+    private int mAddress;
 
     //Image for destination
     private int mImageResourceID = NO_IMAGE_PROVIDED;
@@ -19,19 +19,19 @@ public class Destination {
     //@param mName is the name of the destination
     //@param mAdress is the address of the destination
     //@param imageResourceID is the image associated with the words
-    public Destination(String Name, String Address, int imageResourceID){
+    public Destination(int Name, int Address, int imageResourceID){
         mName = Name;
         mAddress = Address;
         mImageResourceID = imageResourceID;
     }
     /*get destination name
     */
-    public String getDestinationName(){
+    public int getDestinationName(){
         return mName;
     }
     /*get destination address
     */
-    public String getDestinationAddress(){
+    public int getDestinationAddress(){
         return mAddress;
     }
     public int getImageResourceID(){
